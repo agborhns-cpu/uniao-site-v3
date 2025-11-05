@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Request Quotation – UNIAO GROUP LTD</title>
+  <meta name="description" content="Request a quotation for Hass avocados or wooden pallets from UNIAO GROUP LTD.">
+  <link rel="preconnect" href="assets/avocados.jpg" crossorigin>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="UNIAO GROUP LTD Home">
+      <span class="brand-logo">U</span>
+      <span>UNIAO GROUP LTD</span>
+    </a>
+    <input type="checkbox" id="nav-toggle" aria-label="Open menu">
+    <label for="nav-toggle" class="nav-toggle-label">Menu</label>
+    <nav class="nav-menu" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="avocados.html">Hass Avocados</a>
+      <a href="pallets.html">Wooden Pallets</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="request-quote.html" class="button nav-cta">Request Quote</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+  
+  <main class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Request a Quotation</h2>
+        <p>Tell us what you need and where it should ship. We’ll reply promptly.</p>
+      </div>
+      <form class="form" method="post" action="#" onsubmit="alert('Form demo only. Connect to backend/email to make it live.'); return false;">
+        <div class="row">
+          <div class="input">
+            <label for="fullname">Full Name</label>
+            <input id="fullname" name="fullname" required placeholder="Your name" />
+          </div>
+          <div class="input">
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="input">
+            <label for="company">Company</label>
+            <input id="company" name="company" placeholder="Company (optional)" />
+          </div>
+          <div class="input">
+            <label for="product">Product</label>
+            <select id="product" name="product" required>
+              <option value="">Select a product</option>
+              <option>Hass Avocados</option>
+              <option>Wooden Pallets</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input">
+            <label for="quantity">Quantity</label>
+            <input id="quantity" name="quantity" required placeholder="e.g., 8 tons / 5,000 pcs" />
+          </div>
+          <div class="input">
+            <label for="destination">Destination Country / Port</label>
+            <input id="destination" name="destination" required placeholder="e.g., UAE / Jebel Ali" />
+          </div>
+        </div>
+        <div class="input">
+          <label for="message">Additional Details</label>
+          <textarea id="message" name="message" placeholder="Packaging requirements, timelines, incoterms…"></textarea>
+        </div>
+        <button class="button" type="submit">Submit Request</button>
+      </form>
+    </div>
+  </main>
+    
+  
+<footer class="footer">
+  <div class="container">
+    <div class="grid">
+      <div>
+        <div class="brand" style="color:#d1fae5;">
+          <span class="brand-logo" style="background:#14b8a6;">U</span>
+          <span>UNIAO GROUP LTD</span>
+        </div>
+        <p style="margin-top:10px;">Reliable export solutions for fresh produce and industrial materials.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <p><a href="about.html">About Us</a></p>
+        <p><a href="gallery.html">Gallery</a></p>
+        <p><a href="contact.html">Contact</a></p>
+      </div>
+      <div>
+        <h4>Products</h4>
+        <p><a href="avocados.html">Hass Avocados</a></p>
+        <p><a href="pallets.html">Wooden Pallets</a></p>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <p><a href="#">Privacy Policy</a></p>
+        <p><a href="#">Terms of Service</a></p>
+      </div>
+    </div>
+    <div class="bottom">
+      © UNIAO GROUP LTD 2025 · All rights reserved
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
